@@ -58,10 +58,22 @@
     <Compile Include="AjouterFournisseur.Designer.cs">
       <DependentUpon>AjouterFournisseur.cs</DependentUpon>
     </Compile>
+    <Compile Include="AjouterProduit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterProduit.Designer.cs">
+      <DependentUpon>AjouterProduit.cs</DependentUpon>
+    </Compile>
     <Compile Include="BDStockDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BDStockDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FindProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindProd.Designer.cs">
+      <DependentUpon>FindProd.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -75,6 +87,24 @@
     <Compile Include="ListeClients.Designer.cs">
       <DependentUpon>ListeClients.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListeFactures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeFactures.Designer.cs">
+      <DependentUpon>ListeFactures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListeFournisseurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeFournisseurs.Designer.cs">
+      <DependentUpon>ListeFournisseurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListeProduits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeProduits.Designer.cs">
+      <DependentUpon>ListeProduits.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AjouterClient.resx">
@@ -83,11 +113,26 @@
     <EmbeddedResource Include="AjouterFournisseur.resx">
       <DependentUpon>AjouterFournisseur.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AjouterProduit.resx">
+      <DependentUpon>AjouterProduit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindProd.resx">
+      <DependentUpon>FindProd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListeClients.resx">
       <DependentUpon>ListeClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeFactures.resx">
+      <DependentUpon>ListeFactures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeFournisseurs.resx">
+      <DependentUpon>ListeFournisseurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeProduits.resx">
+      <DependentUpon>ListeProduits.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
